@@ -58,11 +58,12 @@ a {
 
 /* Pre Header Style */
 #pre-header {
-	background-color: #3a8bcd;
+	background-color: red;
 	text-align: center;
 }
 #pre-header span {
 	color: #fff;
+	font-weight: bolder;
 	font-size: 15px;
 	padding: 10px 0px;
 	display: inline-block;
@@ -183,10 +184,10 @@ a {
 	transition: all 0.5s;
 }
 .featured-item:hover h4 {
-	color: #3a8bcd;
+	color: rgb(50, 115, 153);;
 }
 .featured-item h6 {
-	color: #3a8bcd;
+	color: #00005f;
 	font-size: 15px;
 	font-weight: 700;
 	margin-bottom: 0px;
@@ -433,8 +434,8 @@ a {
 }
 .page-navigation ul li a:hover,
 .page-navigation ul li.current-page a {
-	background-color: #3a8bcd;
-	border-color: #3a8bcd;
+	background-color: #00005f;
+	border-color: #fff;
 	color: #fff;
 }
 
@@ -461,7 +462,7 @@ a {
 	margin-top: 0px;
 }
 .single-product .right-content h6 {
-	color: #3a8bcd;
+	color: #00005f;
 	font-size: 17px;
 	font-weight: 700;
 	margin-top: 10px;
@@ -472,7 +473,7 @@ a {
 }
 .single-product .right-content span {
 	font-size: 14px;
-	color: #3a8bcd;
+	color: #00005f;
 	font-weight: 500;
 	display: inline-block;
 	margin-bottom: 15px;
@@ -497,7 +498,7 @@ a {
 .single-product .right-content .button {
 	margin-left: 15px;
 	cursor: pointer;
-	background-color: #3a8bcd;
+	background-color: #00005f;
 	outline: none;
 	border-radius: 5px;
 	padding: 10px 15px;
@@ -505,7 +506,7 @@ a {
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: bolder;
 	letter-spacing: 0.4px;
 	text-decoration: none;
 	transition: all 0.5s;
@@ -525,14 +526,14 @@ a {
 	transition: all 0.5s;
 }
 .single-product .right-content .down-content span a:hover {
-	color: #3a8bcd;
+	color: #00005f;
 }
 .single-product .right-content .down-content span a:hover i {
-	background-color: #3a8bcd;
+	background-color: rgb(50, 115, 153);
 }
 .single-product .right-content .down-content span a i {
 	transition: all 0.5s;
-	background-color: #aaa;
+	background-color: #00005f;
 	width: 26px;
 	height: 26px;
 	display: inline-block;
@@ -635,7 +636,7 @@ a {
 }
 .contact-page .right-content span a i {
 	transition: all 0.5s;
-	background-color: #aaa;
+	background-color: #00005f;
 	width: 26px;
 	height: 26px;
 	display: inline-block;
@@ -661,7 +662,7 @@ a {
 }
 .contact-page .right-content .button {
 	cursor: pointer;
-	background-color: #3a8bcd;
+	background-color: #00005f;
 	outline: none;
 	border-radius: 5px;
 	padding: 10px 15px;
@@ -678,7 +679,15 @@ a {
 }
 
 
+/* Politicas de Privaciad */
+.container .container-fluid h4 {
+	font-weight: bold;
+	color: #00005f;
+}
 
+.container .container-fluid p {
+	text-align: justify;
+}
 
 
 
@@ -750,3 +759,4 @@ a {
 	} 
 
 }
+
