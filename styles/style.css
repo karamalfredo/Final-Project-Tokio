@@ -1,11 +1,3 @@
-/* 
-
-Tooplate 2114 Pixie
-
-https://www.tooplate.com/view/2114-pixie
-
-*/
-
 body {
 	font-family: 'Roboto', sans-serif;
 	transition: all 0.5s;
@@ -19,6 +11,30 @@ p {
 a {
 	text-decoration: none!important;
 }
+
+/*Begin Css Banner Cookies*/
+.cookie {
+	width: 400px;
+	padding: 25px;
+	background-color: rgb(30,30,30);
+	color: white;
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+	box-shadow: 0 10px 30px -10px rgba(0,0,0, 0.3);
+}
+
+.cookie p {
+	color: white;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.cookie button {
+	color: black;
+	font-weight: bold;
+}
+/*End Css Banner Cookies*/
 
 .copyright-text {
 	text-transform: uppercase;
