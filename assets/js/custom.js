@@ -64,3 +64,8 @@ jQuery( document ).ready(function( $ ) {
 		});
  
 });
+
+/*Banner*/
+function setCookie() {
+	document.querySelector('.cookie').style.display = 'none';
+}
