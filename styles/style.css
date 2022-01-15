@@ -14,13 +14,12 @@ a {
 
 /*Begin Css Banner Cookies*/
 .cookie {
-	width: 400px;
+	width: 100%;
 	padding: 25px;
 	background-color: rgb(30,30,30);
 	color: white;
-	position: fixed;
-	bottom: 25px;
-	left: 25px;
+	position: relative;
+
 	box-shadow: 0 10px 30px -10px rgba(0,0,0, 0.3);
 }
 
@@ -152,7 +151,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 150px 0px;
-	background-position: center center;
+	background-position: center;
 }
 .banner .caption {
 	background-color: rgba(250,250,250,0.9);
